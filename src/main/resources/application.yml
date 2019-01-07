@@ -1,0 +1,8 @@
+# Note: all properties defined in this file are subject to replacement by the configuration server.
+---
+words: fallback
+
+# For simplicity, disable security when posting to bus/refresh:  
+management:
+  security:
+    enabled: false
